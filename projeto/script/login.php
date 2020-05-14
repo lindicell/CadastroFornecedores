@@ -6,11 +6,12 @@
  * and open the template in the editor.
  */
 
-function Permissao($usuario,$senha,$val){
+function Permissao($login,$senha,$val){
     $resposta=0;
 
-    if($usuario == 'teste' && $senha == 123){
-        $resposta= "Permissão aceita"; 
+    if($login == 'teste' && $senha == 123){
+        header('location:index.php');
+
     }
     else{
         $resposta= "Permissão negada"; 

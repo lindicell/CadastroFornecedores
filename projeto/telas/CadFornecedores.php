@@ -1,3 +1,12 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -22,7 +31,7 @@ and open the template in the editor.
     <div class="container">
         <h3>Tela Cadastro de Fornecedores</h3>
         <div class="row">
-            <form action="scriptCadFornecedores.php" method="post">
+            <form action="../script/scriptCadFornecedores.php" method="post">
                 <div class="form-group">
                     <label for="campoCnpj">*CNPJ:</label>
                     <input type="text" id="campoCnpj" name="campoCnpj" maxlength="11" class="form-control"

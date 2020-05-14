@@ -1,3 +1,13 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+?>
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -65,14 +75,13 @@ and open the template in the editor.
     </head>
     <body>
         <main class="login-form">
-
             <div class="cotainer">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-header">Login</div>
                             <div class="card-body">
-                                <form action="scriptLogin.php" method="post">
+                                <form action="./script/login.php" method="post">
                                     <div class="form-group row">
                                         <label for="email_address" class="col-md-4 col-form-label text-md-right">Login</label>
                                         <div class="col-md-6">

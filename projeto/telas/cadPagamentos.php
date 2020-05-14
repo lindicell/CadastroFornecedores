@@ -1,3 +1,12 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -23,19 +32,11 @@ and open the template in the editor.
 	<div class="container">
 		<h3>Tela Cadastro de Pagamentos</h3>
 		<div class="row">
-			<form action="scriptCadPagamentos.php" method="post">
+			<form action="../script/scriptCadPagamentos.php" method="post">
 				<div class="form-group">
 
 					<label for="campoNome">*Nome:</label>
 					<input type="text" placeholder="Escreva o nome" id="campoNome" name="campoNome" class="form-control" required>
-					<br>
-					<label for="campoCnpj">*CNPJ:</label>
-					<input type="text" id="campoCnpj" name="campoCnpj" maxlength="11" class="form-control"
-						placeholder="Escreva o CNPJ" required>
-					<br>
-					<label for="campoRazaoSo">*Razao Social:</label>
-					<input type="text" name="campoRazaoSo" class="form-control" id="campoRazaoSo"
-						placeholder="Escreva a Razão Social" required>
 					<br>
 					<label for="campoDataPagamento">*Data do pagamento:</label>
 					<input type="date" name="campoDataPagamento" class="form-control" required>
@@ -48,6 +49,7 @@ and open the template in the editor.
 				</div>
 			</form>
 		</div>
+                
 	</div>
 </body>
 
