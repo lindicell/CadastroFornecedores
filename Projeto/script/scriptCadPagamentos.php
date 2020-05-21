@@ -26,12 +26,15 @@ $username = "fdb";
 $password = "fdb";
 $dbname = "fdb";
 
-echo $_COOKIE["nome"];
-
-
 $nome = $_POST["campoNome"];
 $valorpago = $_POST["campoValorPago"];
 $data = $_POST["campoDataPagamento"];
+
+echo $_COOKIE["campoNome"];
+echo $_COOKIE["campoValorPago"];
+echo $_COOKIE["campoDataPagamento"];
+
+
 
 
 /// Verifica a conexao
@@ -64,4 +67,4 @@ echo "<br>Olá fornecedor:" . $_POST["campoNome"], "<br> seu pagamento no valor 
 echo "<br>";
 ?>
 
-            <a href="../telas/index.php" class="btn btn-primary btn-xs">Voltar</a>
+<a href="../telas/tablePagamentos.php" class="btn btn-primary btn-xs">Voltar</a>

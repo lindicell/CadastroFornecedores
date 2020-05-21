@@ -32,6 +32,7 @@ $result = $conn->query($sql); // result set grava tudo na memoria
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Nome</th>
                         <th>Data pagamento</th>
                         <th>Valor</th>
@@ -43,11 +44,12 @@ $result = $conn->query($sql); // result set grava tudo na memoria
                         while ($row = $result->fetch_assoc()) {
                             ?>
                             <tr>
+                                <td><?php echo $row["id"] ?></td>
                                 <td><?php echo $row["nome"] ?></td>
                                 <td><?php echo $row["data"] ?>"</td>    
                                 <td><?php echo $row["valorpago"] ?>"</td>
-                                <td><a href="#" class="btn btn-primary btn-xs"><span class="fa fa-edit"></span></a></td>
-                                <td><a href="#" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span></a></td>
+                                <td><a href="editPagamento.php?id=<?php echo $row['id'];?>">Editar</a></td>
+                                <td><a href="deletePagamento.php?id=<?php echo $row['id'];?>">Deletar</a></td>
 
                             </tr> 
                             <?php

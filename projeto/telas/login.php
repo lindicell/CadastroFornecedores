@@ -81,7 +81,7 @@ and open the template in the editor.
                         <div class="card">
                             <div class="card-header">Login</div>
                             <div class="card-body">
-                                <form action="./script/login.php" method="post">
+                                <form action="./script/loginScript.php" method="post">
                                     <div class="form-group row">
                                         <label for="email_address" class="col-md-4 col-form-label text-md-right">Login</label>
                                         <div class="col-md-6">
@@ -96,9 +96,9 @@ and open the template in the editor.
                                         </div>
                                     </div>
                                     <div class="col-md-6 offset-md-4">
-                                        <button type="submit" class="btn btn-primary">
+                                        <a href="valida.php" type="submit" class="btn btn-primary">
                                             Entrar
-                                        </button>
+                                        </a>
                                     </div>
                                 </form>
                             </div>

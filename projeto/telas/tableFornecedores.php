@@ -53,8 +53,8 @@ $result = $conn->query($sql); // result set grava tudo na memoria
                                 <td><?php echo $row["email"] ?>"</td>
 
 
-                                <td><a href="#" class="btn btn-primary btn-xs"><span class="fa fa-edit"></span></a></td>
-                                <td><a href="#" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span></a></td>
+                                <td><a href="editFornecedor.php?id=<?php echo $row['id'];?>">Editar</a></td>
+                                <td><a href="deleteFornecedor.php?id=<?php echo $row['id'];?>">Deletar</a></td>
                             </tr> 
                             <?php
                         }

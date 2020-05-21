@@ -1,4 +1,8 @@
+<?php
+session_start();
+$_SESSION["id"] = session_id();
 
+?>
 <!DOCTYPE html>
 <html lang="pt">
 
