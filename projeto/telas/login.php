@@ -1,11 +1,9 @@
 <?php
-
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +14,7 @@ and open the template in the editor.
 -->
 
 <html>
-    
+
     <head>
         <title>Login</title>
         <meta charset="UTF-8">
@@ -81,11 +79,11 @@ and open the template in the editor.
                         <div class="card">
                             <div class="card-header">Login</div>
                             <div class="card-body">
-                                <form action="./script/loginScript.php" method="post">
+                                <form action="scriptLogin.php" method="post">
                                     <div class="form-group row">
                                         <label for="email_address" class="col-md-4 col-form-label text-md-right">Login</label>
                                         <div class="col-md-6">
-                                            <input type="text" id="login" class="form-control" name="login" required autofocus>
+                                            <input type="text" id="user" class="form-control" name="user" required autofocus>
                                         </div>
                                     </div>
 
@@ -96,9 +94,7 @@ and open the template in the editor.
                                         </div>
                                     </div>
                                     <div class="col-md-6 offset-md-4">
-                                        <a href="valida.php" type="submit" class="btn btn-primary">
-                                            Entrar
-                                        </a>
+                                        <input type="submit" value="entrar" id="entrar" name="entrar" /> 
                                     </div>
                                 </form>
                             </div>

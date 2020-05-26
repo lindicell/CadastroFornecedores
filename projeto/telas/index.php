@@ -575,6 +575,7 @@ $_SESSION["id"] = session_id();
                             </li>
                         </ul>
                     </div>
+                    
                     <!-- sidebar-menu  -->
                 </div>
             </nav>
